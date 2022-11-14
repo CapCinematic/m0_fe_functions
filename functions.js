@@ -15,12 +15,17 @@ function printGreeting(name) {
 
 
 // 3: Write a function that has 3 parameters: a string and two numbers. The String will be the name of a company, and the numbers will represent the minimum and maximum of a pay range for a posted job. The function should print out a sentence that includes the name of the company and the range itself (if the numbers passed in are 90000 and 110000, the pay range is 20000).
-function displayRange["starCoffee", 35000, 50000] {
-    var managerRate (i = 35000; i > 5000; i++)
-    var cashierRate (35000)
-    var payRange (1500)
-    console.log()
-}
+function diff(num1, num2) {
+    var sum = num1 - num2;
+    return sum;
+  }
+  
+  var managerPay = 50000;
+  var cashierPay = 35000;
+  var payRange = diff(managerPay, cashierPay);
+  var companyName = "starCoffee"
+  
+    console.log(`The pay range is ${payRange} for ${companyName} for employees`)
 
 // 4: Write a function that satifies the following interaction pattern:
 
